@@ -1,6 +1,6 @@
 module.exports = {
     entry: [
-        __dirname + "/app/Condition.js",
+        __dirname + "/app/Nativejs.js",
     ],
     output: {
         path: __dirname + "/public",
