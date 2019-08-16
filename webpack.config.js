@@ -1,6 +1,6 @@
 module.exports = {
     entry: [
-        __dirname + "/app/Validations.js",
+        __dirname + "/app/Jsx.js",
     ],
     output: {
         path: __dirname + "/public",
@@ -13,7 +13,8 @@ module.exports = {
             exclude: /node_modules/,
             loader: 'babel',
             query:{
-               presets: ['es2015', 'react']
+               presets: ['es2015', 'react'],
+               plugins:["jsx-control-statements"]
             }
          
 
