@@ -1,6 +1,6 @@
 module.exports = {
     entry: [
-        __dirname + "/app/Nativejs.js",
+        __dirname + "/app/Factory.js",
     ],
     output: {
         path: __dirname + "/public",
