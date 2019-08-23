@@ -32,12 +32,10 @@ class StateComponent extends React.Component {
                 <input id='age' type='number' value={this.state.age} onChange={this.handleChanges.bind(this)} />
 
             </form>
-
-
         )
     }
-
 }
+
 render(
     <StateComponent />,
     document.getElementById('root')
