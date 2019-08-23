@@ -1,6 +1,6 @@
 module.exports = {
     entry: [
-        __dirname + "/app/Component.js",
+        __dirname + "/app/StateComponent.js",
     ],
     output: {
         path: __dirname + "/public",
