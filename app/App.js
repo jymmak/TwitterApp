@@ -1,15 +1,17 @@
 import React from 'react'
 import { render } from 'react-dom'
+import EmployeeForm from './EmployeeForm'
 
 
 class App extends React.Component {
-    render() {
-        let variable = {
-            message: 'Nuestro proyecto'
-        }
-        return (
-            <h1>{variable.message}</h1>
+    save(employee) {
+        alert(JSON.stringify(employee))
+    }
 
+    render() {
+
+        return (
+            <EmployeeForm save={this.save.bind(this)} />
         )
     }
 }
